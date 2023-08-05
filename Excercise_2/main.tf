@@ -1,3 +1,4 @@
+# TODO: Designate a cloud provider, region, and credentials
 terraform {
   required_providers {
     aws = {
@@ -9,7 +10,6 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
-# TODO: Designate a cloud provider, region, and credentials
 provider "aws" {
   profile = "default"
   access_key = "ASIA2J6TPJERA5LQT2TS"
